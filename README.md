@@ -1,4 +1,4 @@
-# std_convent
+# std_convert
 
 Encapsulated string encoding conversion using standard libraries
 
