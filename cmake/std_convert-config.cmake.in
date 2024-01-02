@@ -1,0 +1,10 @@
+# std_convert-config.cmake
+
+set(StdConvert_INCLUDE_DIRS ${CMAKE_CURRENT_SOURCE_DIR}/include)
+set(StdConvert_LIBRARIES std_convert)
+
+@std_onvert_EXPORTED_TARGETS@
+
+set_and_check(std_convert_INCLUDE_DIR "@PACKAGE_INCLUDE_INSTALL_DIR@")
+
+check_required_components(std_convert)
